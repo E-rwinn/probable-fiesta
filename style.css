@@ -11,7 +11,7 @@
     font-weight: 700;
     font-size: 36px; 
     text-decoration: none;
-    color: #797979;
+    color: #000000;
 }
 
 nav {
@@ -43,6 +43,9 @@ nav li a {
     display: flex;
     padding: 24px 120px 24px 120px;
 }
+.highlight {
+    color: #797979;
+}
 .home-role {
     font-family: "Nunito", sans-serif;
     font-weight: 800;
@@ -59,23 +62,41 @@ nav li a {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 20px;
-    color: #333333;
+    color: #000000;
 }
 .home-link {
     color: #000000;
-    text-decoration: none;
 }
 .home-link:hover {
     text-decoration: underline;
 }
 .home-buttons1 {
+    background-color: #797979;
     border: none;
-    border-radius: 4px;
     color: #ffffff;
     cursor: pointer;
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 600;
     font-size: 18px;
     padding: 12px 24px;
     border-radius: 15px;
+}
+.home-buttons1 a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.home-buttons2 {
+    border: 2px solid #000000;
+    border-radius: 15px;
+    color: #000000;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+  background-color: transparent;
+    padding: 12px 24px;
+}
+.home-buttons2 a {
+    text-decoration: none;
+    color: #000000;
 }
