@@ -62,6 +62,7 @@ nav li a {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 20px;
+    margin-top: 20px;
     color: #000000;
 }
 .home-link {
@@ -80,6 +81,7 @@ nav li a {
     font-size: 18px;
     padding: 12px 24px;
     border-radius: 15px;
+    margin-top: 50px;
 }
 .home-buttons1 a {
     text-decoration: none;
@@ -93,10 +95,61 @@ nav li a {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 18px;
-  background-color: transparent;
+    background-color: transparent;
     padding: 12px 24px;
 }
 .home-buttons2 a {
     text-decoration: none;
     color: #000000;
+}
+
+.container {
+    background-color: #EDECEC;
+    width: 726px;
+    height: 21px;
+    border-radius: 15px;
+}
+
+.skill {
+   background-color: #797979;
+   color: white;
+   padding: 1%;
+   text-align: right;
+   font-size: 20px;
+   border-radius: 15px;
+}
+.html {
+   width: 80%;
+}
+#about {
+   padding: 152px 120px 24px 120px;
+   display: flex;
+   justify-content: space-between;
+}
+.skill-container {
+  
+ 
+}
+.aboutme-title {
+   font-family: "Poppins", sans-serif;
+   font-weight: 700;
+   font-size: 48px;
+   color: #000000;
+}
+.aboutme-description {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #777777;
+}
+.skill-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+    margin-top: 15px;
+}
+.skill {
+    height: 21px;
+    width: 300px;
 }
