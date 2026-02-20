@@ -54,7 +54,7 @@ nav li a {
 }
 .home-name {
     font-family: "Poppins", sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 64px;
     color: #000000;
 }
@@ -185,6 +185,7 @@ nav li a {
     font-size: 21px;
     color: #777777;
     text-align: center;
+    letter-spacing: 3%;
 }
 #contact {
     display: flex;
@@ -194,7 +195,7 @@ nav li a {
 .contact-container h1 {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
-    font-size: 64px;
+    font-size: 54px;
     letter-spacing: 3%;
     color: #000000;
 }
@@ -235,3 +236,7 @@ nav li a {
     padding: 20px 66px;
     cursor: pointer;
 }
+@media (min-width: 1536px) {
+    
+ }
+
