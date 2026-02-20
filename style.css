@@ -41,7 +41,7 @@ nav li a {
 
 #home {
     display: flex;
-    padding: 24px 120px 24px 120px;
+    padding: 152px 120px 24px 120px;
 }
 .highlight {
     color: #797979;
@@ -152,4 +152,86 @@ nav li a {
 .skill {
     height: 21px;
     width: 300px;
+}
+#projects {
+    padding: 152px 120px 24px 120px;
+}
+.project-box {
+    background-color: #EDECEC;
+    border-radius: 15px;
+    margin-top: 45px;
+    width: 313px;
+    height: 361px;
+    text-align: center;
+}
+.projectbox-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    justify-content: center; 
+
+}
+.projects-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #000000;
+    text-align: center;
+}
+.projects-description {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    color: #777777;
+    text-align: center;
+}
+#contact {
+    display: flex;
+    padding: 152px 120px 152px 120px;
+    justify-content: space-between;
+}
+.contact-container h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    letter-spacing: 3%;
+    color: #000000;
+}
+.contact-container p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    letter-spacing: 3%;
+    color: #777777;
+}
+.contact-form form {
+    margin-top: 35px;
+}
+.contact-form input {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 3%;
+    background-color: #F8F8F8;
+    color: #797979;
+    padding: 20px 130px 20px 31px;
+    stroke: #AFAFAF; 
+    stroke-width: 1px;
+    border: 1px solid #AFAFAF;
+    border-radius: 14px;
+}
+.contact-form button {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 3%;
+    margin-top: 52px;
+    color: #ffffff;
+    background-color: #797979;
+    border: none;
+    border-radius: 18px;
+    padding: 20px 66px;
+    cursor: pointer;
 }
